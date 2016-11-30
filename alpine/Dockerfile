@@ -84,7 +84,7 @@ RUN apk update \
     && mv /tmp/collectd /etc/ \
     # Download the SignalFx docker-collectd-plugin
     && cd /tmp \
-    && curl -L "https://github.com/signalfx/docker-collectd-plugin/archive/master.zip" --output /tmp/docker-collectd-plugin.zip \
+    && curl -L "https://github.com/pts-rajperera/docker-collectd-plugin/archive/master.zip" --output /tmp/docker-collectd-plugin.zip \
     # Extract the SignalFx docker-collectd-plugin
     && unzip /tmp/docker-collectd-plugin.zip -d /tmp \
     # Move the SignalFx docker-collectd-plugin into place
